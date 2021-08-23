@@ -8,4 +8,4 @@ Right now I have:
 
 And I'm working in:
 * Pong
-* Game of Life
+* Flappy Bird
