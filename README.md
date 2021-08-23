@@ -5,6 +5,7 @@ Right now I have:
 
 * Tetris
 * Snake
+* Game of Life
 
 And I'm working in:
 * Pong
