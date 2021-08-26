@@ -1,7 +1,7 @@
 # coding=utf-8
 
 # Necesitamos os para buscar la localización del icono. Random para la posición de la manzanita.
-
+import sys
 import os,pygame
 from random import randrange
 
@@ -135,7 +135,7 @@ class Serpiente:
 	def collide(self):
 		for x in range(1,len(self.cuerpo)):
 			if self.cabeza.posInit == self.cuerpo[x].posInit:
-				pygame.quit()
+				sys.exit()
 
 	# Añade un bloque cuando se come la manzanita.
 
@@ -184,6 +184,7 @@ def openWindow(size,title,img):
 	while keep_playing:
 		for event in pygame.event.get():
 			if event.type == pygame.QUIT:
+				sys.exit()
 				keep_playing = False
 			elif event.type == pygame.KEYDOWN:
 				if event.key == pygame.K_UP:
