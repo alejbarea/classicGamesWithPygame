@@ -6,6 +6,7 @@ Right now I have:
 * Tetris
 * Snake
 * Game of Life
+* Sand Falling
 
 And I'm working in:
 * Pong
